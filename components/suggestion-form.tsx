@@ -105,7 +105,7 @@ export function SuggestionForm() {
 
           <Button
             type="submit"
-            className="w-full gap-2 bg-primary text-primary-foreground hover:bg-primary/90"
+            className="w-full gap-2 bg-primary text-primary-foreground hover:bg-primary/90 cursor-pointer"
             disabled={submitting || submitted}
           >
             {submitted ? (
