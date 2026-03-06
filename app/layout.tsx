@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { Inter, Geist_Mono, Cinzel } from 'next/font/google'
-import { Analytics } from '@arcane/analytics/next'
+import { Analytics } from '@vercel/analytics/react'
 import './globals.css'
 
 const _inter = Inter({ subsets: ["latin"] });
