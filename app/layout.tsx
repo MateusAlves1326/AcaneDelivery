@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { Inter, Geist_Mono, Cinzel } from 'next/font/google'
-import { Analytics } from '@vercel/analytics/next'
+import { Analytics } from '@arcane/analytics/next'
 import './globals.css'
 
 const _inter = Inter({ subsets: ["latin"] });
@@ -10,23 +10,23 @@ const _cinzel = Cinzel({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: 'Arcane Delivery - Roguelike de Entregas Mágicas',
   description: 'Arcane Delivery é um roguelike de ação em visão top-down onde você assume o papel de um entregador em um mundo pós-apocalíptico.',
-  generator: 'v0.app',
+  generator: 'Next.js',
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
+        url: '/favicon.ico',
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '/icon-dark-32x32.png',
+        url: '/favicon.ico',
         media: '(prefers-color-scheme: dark)',
       },
       {
-        url: '/icon.svg',
+        url: '/favicon.ico',
         type: 'image/svg+xml',
       },
     ],
-    apple: '/apple-icon.png',
+    apple: '/favicon.ico',
   },
 }
 
